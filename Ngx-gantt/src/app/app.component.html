@@ -1,0 +1,19 @@
+<h1>GoJS / Angular - Components Sample</h1>
+
+<div class="left">
+  Palette
+  <gojs-palette #myPalette [initPalette]='initPalette' [divClassName]='paletteDivClassName' [nodeDataArray]='state.paletteNodeData'
+     [modelData]='state.paletteModelData'></gojs-palette>
+</div>
+
+<div class="left">
+  Diagram
+  <gojs-diagram #myDiagram [initDiagram]='initDiagram' [nodeDataArray]='state.diagramNodeData' [linkDataArray]='state.diagramLinkData'
+    [divClassName]='diagramDivClassName' [modelData]='state.diagramModelData'>
+  </gojs-diagram>
+</div>
+
+<div class="left">
+  Overview
+  <gojs-overview #myOverview [initOverview]='initOverview' [divClassName]='oDivClassName'></gojs-overview>
+</div>
